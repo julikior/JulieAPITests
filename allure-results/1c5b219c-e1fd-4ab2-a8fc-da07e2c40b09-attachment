@@ -1,0 +1,178 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 18 Jan 2022 11:55:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"83d171a69ae7b1fdbfd2eb359518ae12"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 2ca2b250-e2a3-4867-9852-08ab748f7e32
+X-Runtime: 0.022314
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": {
+        "pagination": {
+            "total": 1645,
+            "pages": 83,
+            "page": 1,
+            "limit": 20,
+            "links": {
+                "previous": null,
+                "current": "https://gorest.co.in/public/v1/users?page=1",
+                "next": "https://gorest.co.in/public/v1/users?page=2"
+            }
+        }
+    },
+    "data": [
+        {
+            "id": 1987,
+            "name": "pop193",
+            "email": "po102@popa.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 1996,
+            "name": "chandu",
+            "email": "chandujeelam@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2002,
+            "name": "Pippa Lee",
+            "email": "lee1@gmail.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2021,
+            "name": "kavya",
+            "email": "test-5751.899228536385@gmail.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2018,
+            "name": "gsachinu",
+            "email": "fatimaanejeelam@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 38,
+            "name": "Divya Talwar",
+            "email": "divya_talwar@lueilwitz-schmitt.org",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 39,
+            "name": "Pres. Chidambar Shukla",
+            "email": "pres_chidambar_shukla@stracke.io",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 40,
+            "name": "Sarada Abbott",
+            "email": "abbott_sarada@predovic.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 41,
+            "name": "Ashlesh Sinha",
+            "email": "sinha_ashlesh@hilll.io",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 42,
+            "name": "Aadidev Ahluwalia",
+            "email": "ahluwalia_aadidev@schinner-welch.net",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 44,
+            "name": "Som Naik",
+            "email": "naik_som@bernier-buckridge.io",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 45,
+            "name": "Mohini Tandon",
+            "email": "tandon_mohini@satterfield.com",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 46,
+            "name": "Gorakhanatha Guha",
+            "email": "gorakhanatha_guha@morissette.com",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 47,
+            "name": "Anasuya Kapoor",
+            "email": "anasuya_kapoor@schulist.name",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 48,
+            "name": "Miss Navin Pothuvaal",
+            "email": "navin_miss_pothuvaal@west.io",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 49,
+            "name": "Anshula Marar",
+            "email": "anshula_marar@casper-mayer.name",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 50,
+            "name": "Amrit Nair",
+            "email": "amrit_nair@kihn.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 51,
+            "name": "Gatik Iyer",
+            "email": "gatik_iyer@hegmann-fisher.biz",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 52,
+            "name": "Prathamesh Kapoor",
+            "email": "prathamesh_kapoor@kassulke-goyette.com",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 53,
+            "name": "Chandrabhaga Khatri",
+            "email": "chandrabhaga_khatri@blanda-hauck.net",
+            "gender": "male",
+            "status": "inactive"
+        }
+    ]
+}

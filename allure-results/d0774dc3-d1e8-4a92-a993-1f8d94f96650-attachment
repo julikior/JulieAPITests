@@ -1,0 +1,138 @@
+HTTP/1.1 201 Created
+Server: nginx
+Date: Tue, 18 Jan 2022 11:55:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: https://gorest.co.in/public/v1/users/2076
+ETag: W/"4a8e37427f3b532c05ead3d9d2698130"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: e755a3d5-b936-4f87-a76b-7bca4cf30484
+X-Runtime: 0.014904
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+
+{
+    "meta": null,
+    "data": {
+        "id": 2076,
+        "name": "test_name_1642506931389",
+        "email": "test.email1642506931389@15ce.com",
+        "gender": "male",
+        "status": "active"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 18 Jan 2022 11:55:34 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"4a8e37427f3b532c05ead3d9d2698130"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 08ae1627-f7e8-4ebc-ba17-6db9b6259111
+X-Runtime: 0.011136
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "id": 2076,
+        "name": "test_name_1642506931389",
+        "email": "test.email1642506931389@15ce.com",
+        "gender": "male",
+        "status": "active"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 18 Jan 2022 11:55:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"ca5cbd03f0cc6ce499a977430eabd74c"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 6f92ba38-d5fe-48a6-a214-40d7dc04e50b
+X-Runtime: 0.020511
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "email": "UpdatedEmail1642506934884@test.com",
+        "name": "UpdatedName1642506934884",
+        "gender": "female",
+        "status": "inactive",
+        "id": 2076
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 18 Jan 2022 11:55:37 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"59c33582bb4bf869f4cd684d938ef37f"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 11d6ad11-8aff-44b2-9523-4b085e43685b
+X-Runtime: 0.014248
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "id": 2076,
+        "name": "UpdatedName1642506934884",
+        "email": "UpdatedEmail1642506934884@test.com",
+        "gender": "female",
+        "status": "inactive"
+    }
+}
+HTTP/1.1 204 No Content
+Server: nginx
+Date: Tue, 18 Jan 2022 11:55:38 GMT
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Cache-Control: no-cache
+X-Request-Id: 48fc37fa-7108-4952-a609-b98f432a31ab
+X-Runtime: 0.018132
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin

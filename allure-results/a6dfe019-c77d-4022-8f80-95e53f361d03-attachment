@@ -1,0 +1,153 @@
+HTTP/1.1 201 Created
+Server: nginx
+Date: Tue, 25 Jan 2022 19:29:12 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
+X-RateLimit-Reset: 1
+Location: https://gorest.co.in/public/v1/users/6200
+ETag: W/"4a7b61bbb82e74dfb50a3278a7188c3f"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 1ce6ed80-e8e7-4fcb-858f-96465e590cfd
+X-Runtime: 0.024613
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+
+{
+    "meta": null,
+    "data": {
+        "id": 6200,
+        "name": "test_name_1643138952075",
+        "email": "test.email1643138952075@15ce.com",
+        "gender": "male",
+        "status": "inactive"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 25 Jan 2022 19:29:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
+X-RateLimit-Reset: 1
+ETag: W/"4a7b61bbb82e74dfb50a3278a7188c3f"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 15cf779c-3ca9-4360-ab70-223bd36be85f
+X-Runtime: 0.015537
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "id": 6200,
+        "name": "test_name_1643138952075",
+        "email": "test.email1643138952075@15ce.com",
+        "gender": "male",
+        "status": "inactive"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 25 Jan 2022 19:29:15 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
+X-RateLimit-Reset: 1
+ETag: W/"4d00a5111c49f47b3f9a8cddeb294798"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: c42d8b03-5e1b-45eb-abd5-08ad4ce9766c
+X-Runtime: 0.030125
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "email": "UpdatedEmail1643138954298@test.com",
+        "name": "UpdatedName1643138954298",
+        "gender": "male",
+        "status": "inactive",
+        "id": 6200
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 25 Jan 2022 19:29:16 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
+X-RateLimit-Reset: 1
+ETag: W/"82d1dba19acbd2e2f3d3da7cd553429d"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 98037e5b-7ff9-4f13-b007-17b3426a91f6
+X-Runtime: 0.020112
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "id": 6200,
+        "name": "UpdatedName1643138954298",
+        "email": "UpdatedEmail1643138954298@test.com",
+        "gender": "male",
+        "status": "inactive"
+    }
+}
+HTTP/1.1 204 No Content
+Server: nginx
+Date: Tue, 25 Jan 2022 19:29:17 GMT
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
+X-RateLimit-Reset: 1
+Cache-Control: no-cache
+X-Request-Id: 8a146762-4069-4ec0-a475-c3b1b9ba398b
+X-Runtime: 0.028035
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin

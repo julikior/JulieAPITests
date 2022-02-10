@@ -1,0 +1,301 @@
+HTTP/1.1 201 Created
+Server: nginx
+Date: Thu, 20 Jan 2022 21:15:39 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: https://gorest.co.in/public/v1/users/3487
+ETag: W/"e12a1dd5fdabf2b5b9d4de75a9ea4e91"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: d67643d5-4b2b-4dcc-8025-0e06149c42ac
+X-Runtime: 0.013913
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+
+{
+    "meta": null,
+    "data": {
+        "id": 3487,
+        "name": "test_name_1642713336168",
+        "email": "test.email1642713336168@15ce.com",
+        "gender": "male",
+        "status": "inactive"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 20 Jan 2022 21:15:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"e12a1dd5fdabf2b5b9d4de75a9ea4e91"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 805bcb3d-a08c-4ad1-8d72-3ce1df009dde
+X-Runtime: 0.012767
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "id": 3487,
+        "name": "test_name_1642713336168",
+        "email": "test.email1642713336168@15ce.com",
+        "gender": "male",
+        "status": "inactive"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 20 Jan 2022 21:15:43 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"b0afb71106404c31f9a1400f6df3dd7c"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 066d7c66-188c-4677-a7ad-c2ee7343a5fc
+X-Runtime: 0.016470
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "email": "UpdatedEmail1642713341799@test.com",
+        "name": "UpdatedName1642713341799",
+        "gender": "female",
+        "status": "active",
+        "id": 3487
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 20 Jan 2022 21:15:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"7e2ea2879734fe8b3babd1522ff59999"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 839921d0-8820-442c-9b04-1ab12c3ede62
+X-Runtime: 0.018514
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "id": 3487,
+        "name": "UpdatedName1642713341799",
+        "email": "UpdatedEmail1642713341799@test.com",
+        "gender": "female",
+        "status": "active"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 20 Jan 2022 21:15:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"6609edef639662e80f43cb96c34ed1bb"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 0746e1d6-5f2c-4244-a226-0aa336f45845
+X-Runtime: 0.016031
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": {
+        "pagination": {
+            "total": 1754,
+            "pages": 88,
+            "page": 1,
+            "limit": 20,
+            "links": {
+                "previous": null,
+                "current": "https://gorest.co.in/public/v1/users?page=1",
+                "next": "https://gorest.co.in/public/v1/users?page=2"
+            }
+        }
+    },
+    "data": [
+        {
+            "id": 3213,
+            "name": "Topical Pala",
+            "email": "trcm3l22kbn@gmail.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 3474,
+            "name": "UpdatedName1642712755460",
+            "email": "UpdatedEmail1642712755460@test.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 3216,
+            "name": "Catarina Nina Moraes",
+            "email": "catarinaninamoraes829@autvale.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 3217,
+            "name": "Catarina Nina Moraes",
+            "email": "catarinaninamoraes214@autvale.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2618,
+            "name": "Wilbert",
+            "email": "LN+inventore@example.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2935,
+            "name": "аrtem?:№;%:?",
+            "email": "Nemchenko84@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2625,
+            "name": "Anjali",
+            "email": "Update@test.com",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 2626,
+            "name": "Toric Pal",
+            "email": "Toric2a186998896965@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2938,
+            "name": "аrtem?:№;%:?",
+            "email": "Nemchenko9999@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2406,
+            "name": "john@ce.com",
+            "email": "john@11ce.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 3360,
+            "name": "Mrs. Humberto Weissnat",
+            "email": "deangelo.lesch@gmail.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 3379,
+            "name": "Oscar Rosenbaum",
+            "email": "eneida.kemmer@yahoo.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 3392,
+            "name": "Andres Rodriguez",
+            "email": "testerarg@test.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2640,
+            "name": "Armand",
+            "email": "LN+qui@example.com",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 2643,
+            "name": "Margarito Swaniawski",
+            "email": "corinne.harvey@hotmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 3394,
+            "name": "yvrtd",
+            "email": "ugrkq@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 3050,
+            "name": "Topical Pala",
+            "email": "topical_pala12@gmail.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2575,
+            "name": "UpdatedName1642685552476",
+            "email": "UpdatedEmail1642685552476@test.com",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 2636,
+            "name": "SAI",
+            "email": "123456@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2647,
+            "name": "Amanda Cole",
+            "email": "adan.swift@gmail.com",
+            "gender": "male",
+            "status": "active"
+        }
+    ]
+}

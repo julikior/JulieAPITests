@@ -1,0 +1,178 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 18 Jan 2022 14:15:58 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"122c89ae9c73b110d41667661982298d"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: e6ea7bf7-b89e-4af1-b71c-aa7064aae9b0
+X-Runtime: 0.014397
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": {
+        "pagination": {
+            "total": 1784,
+            "pages": 90,
+            "page": 1,
+            "limit": 20,
+            "links": {
+                "previous": null,
+                "current": "https://gorest.co.in/public/v1/users?page=1",
+                "next": "https://gorest.co.in/public/v1/users?page=2"
+            }
+        }
+    },
+    "data": [
+        {
+            "id": 2251,
+            "name": "Aditi Rao",
+            "email": "aditir.rao@143ce.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2252,
+            "name": "Jaspreet Singh",
+            "email": "jas.jsingh@1346ce.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2271,
+            "name": "p1",
+            "email": "pi@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 1996,
+            "name": "chandu",
+            "email": "chandujeelam@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2272,
+            "name": "123456",
+            "email": "Oleg8@15ce.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 1849,
+            "name": "aarti ji",
+            "email": "aditi.rao@13ce.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2002,
+            "name": "Pippa Lee",
+            "email": "lee1@gmail.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2275,
+            "name": "Alexandre",
+            "email": "pika+dolor@exampel.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2276,
+            "name": "Clinton",
+            "email": "pika+incidunt@exampel.com",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 2277,
+            "name": "Paula Brasil 9442",
+            "email": "paula.brasil.9442@email.com.br",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2283,
+            "name": "Paula Brasil 2918",
+            "email": "paula.brasil.2918@email.com.br",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2284,
+            "name": "123456",
+            "email": "Oleg11@15ce.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2330,
+            "name": "Tenali Ramakrishna",
+            "email": "tenali.ramakrishna@17ce.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 2346,
+            "name": "Nia",
+            "email": "pika+ad@exampel.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 2018,
+            "name": "gsachinu",
+            "email": "fatimaanejeelam@gmail.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 38,
+            "name": "Divya Talwar",
+            "email": "divya_talwar@lueilwitz-schmitt.org",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 39,
+            "name": "Pres. Chidambar Shukla",
+            "email": "pres_chidambar_shukla@stracke.io",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 40,
+            "name": "Sarada Abbott",
+            "email": "abbott_sarada@predovic.com",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 41,
+            "name": "Ashlesh Sinha",
+            "email": "sinha_ashlesh@hilll.io",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 42,
+            "name": "Aadidev Ahluwalia",
+            "email": "ahluwalia_aadidev@schinner-welch.net",
+            "gender": "male",
+            "status": "inactive"
+        }
+    ]
+}
