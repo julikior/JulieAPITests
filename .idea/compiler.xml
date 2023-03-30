@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JulieAPITests" target="1.8" />
+      <module name="JulieAPITests" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -2569,6 +2569,547 @@
 2022-02-10 13:55:13.627 [DEBUG] - Connection 0.0.0.0:50830<->139.59.66.125:443 closed
 2022-02-10 13:55:13.629 [DEBUG] - Connection 0.0.0.0:50821<->139.59.66.125:443 closed
 2022-02-10 13:55:13.632 [DEBUG] - Connection 0.0.0.0:50850<->139.59.66.125:443 closed
+2023-03-30 15:14:47.993 [INFO] - Create a user
+2023-03-30 15:14:49.137 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 15:14:49.202 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 15:14:49.380 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 15:14:49.381 [DEBUG] - Auth cache not set in the context
+2023-03-30 15:14:49.381 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 15:14:49.381 [DEBUG] - Attempt 1 to execute request
+2023-03-30 15:14:49.381 [DEBUG] - Sending request: POST /public/v1/users HTTP/1.1
+2023-03-30 15:14:49.382 [DEBUG] -  >> "POST /public/v1/users HTTP/1.1[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "Content-Length: 113[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 15:14:49.383 [DEBUG] - >> POST /public/v1/users HTTP/1.1
+2023-03-30 15:14:49.384 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 15:14:49.384 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 15:14:49.384 [DEBUG] - >> Content-Type: application/json
+2023-03-30 15:14:49.384 [DEBUG] - >> Content-Length: 113
+2023-03-30 15:14:49.384 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 15:14:49.384 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 15:14:49.384 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 15:14:49.384 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 15:14:49.385 [DEBUG] -  >> "{"name":"test_name_1680182087985","gender":"female","email":"test.email1680182087983@15ce.com","status":"active"}"
+2023-03-30 15:14:50.037 [DEBUG] -  << "HTTP/1.1 201 Created[\r][\n]"
+2023-03-30 15:14:50.039 [DEBUG] -  << "Date: Thu, 30 Mar 2023 13:14:50 GMT[\r][\n]"
+2023-03-30 15:14:50.040 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 15:14:50.040 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 15:14:50.040 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 15:14:50.040 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 15:14:50.040 [DEBUG] -  << "etag: W/"4464d10abf7bbe1417dd6f1c1fe37211"[\r][\n]"
+2023-03-30 15:14:50.040 [DEBUG] -  << "location: https://gorest.co.in/public/v1/users/596466[\r][\n]"
+2023-03-30 15:14:50.040 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-ratelimit-remaining: 89[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-ratelimit-reset: 1[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-request-id: b55aecbe-92a4-4a6a-a3ae-e2ae3ba43e3a[\r][\n]"
+2023-03-30 15:14:50.041 [DEBUG] -  << "x-runtime: 0.088259[\r][\n]"
+2023-03-30 15:14:50.042 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 15:14:50.042 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 15:14:50.042 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SLVsbrhVLw1Or%2FqrD%2B9dVdcubGkZh9j4TszR4JCaw8zIvMaczuER01MwFrKShaDNrv3okGtwN7INKr%2BUZH20IgD34%2BkYa87MFHiHoZqcDY6uUyDffjB6P%2F6glQR2fJU%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:50.042 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:50.042 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 15:14:50.042 [DEBUG] -  << "CF-RAY: 7b009e2b2b5efc77-WAW[\r][\n]"
+2023-03-30 15:14:50.042 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 15:14:50.042 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:50.043 [DEBUG] - Receiving response: HTTP/1.1 201 Created
+2023-03-30 15:14:50.043 [DEBUG] - << HTTP/1.1 201 Created
+2023-03-30 15:14:50.043 [DEBUG] - << Date: Thu, 30 Mar 2023 13:14:50 GMT
+2023-03-30 15:14:50.043 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 15:14:50.043 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 15:14:50.043 [DEBUG] - << Connection: keep-alive
+2023-03-30 15:14:50.043 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 15:14:50.043 [DEBUG] - << etag: W/"4464d10abf7bbe1417dd6f1c1fe37211"
+2023-03-30 15:14:50.043 [DEBUG] - << location: https://gorest.co.in/public/v1/users/596466
+2023-03-30 15:14:50.044 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 15:14:50.044 [DEBUG] - << vary: Origin
+2023-03-30 15:14:50.044 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 15:14:50.044 [DEBUG] - << x-download-options: noopen
+2023-03-30 15:14:50.044 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 15:14:50.044 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 15:14:50.044 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 15:14:50.044 [DEBUG] - << x-ratelimit-remaining: 89
+2023-03-30 15:14:50.044 [DEBUG] - << x-ratelimit-reset: 1
+2023-03-30 15:14:50.044 [DEBUG] - << x-request-id: b55aecbe-92a4-4a6a-a3ae-e2ae3ba43e3a
+2023-03-30 15:14:50.044 [DEBUG] - << x-runtime: 0.088259
+2023-03-30 15:14:50.044 [DEBUG] - << x-xss-protection: 0
+2023-03-30 15:14:50.044 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 15:14:50.044 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SLVsbrhVLw1Or%2FqrD%2B9dVdcubGkZh9j4TszR4JCaw8zIvMaczuER01MwFrKShaDNrv3okGtwN7INKr%2BUZH20IgD34%2BkYa87MFHiHoZqcDY6uUyDffjB6P%2F6glQR2fJU%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 15:14:50.045 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 15:14:50.045 [DEBUG] - << Server: cloudflare
+2023-03-30 15:14:50.045 [DEBUG] - << CF-RAY: 7b009e2b2b5efc77-WAW
+2023-03-30 15:14:50.045 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 15:14:50.049 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:50.054 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 15:14:50.054 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 15:14:50.077 [DEBUG] -  << "92[\r][\n]"
+2023-03-30 15:14:50.077 [DEBUG] -  << "{"meta":null,"data":{"id":596466,"name":"test_name_1680182087985","email":"test.email1680182087983@15ce.com","gender":"female","status":"active"}}"
+2023-03-30 15:14:50.077 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:50.078 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 15:14:50.078 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:50.078 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3ac0a14b
+2023-03-30 15:14:50.078 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:50.282 [INFO] - Get user by userId
+2023-03-30 15:14:50.324 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 15:14:50.324 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 15:14:50.373 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 15:14:50.374 [DEBUG] - Auth cache not set in the context
+2023-03-30 15:14:50.374 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 15:14:50.374 [DEBUG] - Attempt 1 to execute request
+2023-03-30 15:14:50.375 [DEBUG] - Sending request: GET /public/v1/users/596466 HTTP/1.1
+2023-03-30 15:14:50.375 [DEBUG] -  >> "GET /public/v1/users/596466 HTTP/1.1[\r][\n]"
+2023-03-30 15:14:50.375 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 15:14:50.375 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 15:14:50.376 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 15:14:50.376 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 15:14:50.376 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 15:14:50.376 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 15:14:50.376 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 15:14:50.376 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 15:14:50.376 [DEBUG] - >> GET /public/v1/users/596466 HTTP/1.1
+2023-03-30 15:14:50.376 [DEBUG] - >> Content-Type: application/json
+2023-03-30 15:14:50.376 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 15:14:50.376 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 15:14:50.376 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 15:14:50.377 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 15:14:50.377 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 15:14:50.377 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 15:14:50.929 [DEBUG] -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-03-30 15:14:50.930 [DEBUG] -  << "Date: Thu, 30 Mar 2023 13:14:50 GMT[\r][\n]"
+2023-03-30 15:14:50.930 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 15:14:50.930 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 15:14:50.930 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 15:14:50.930 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 15:14:50.930 [DEBUG] -  << "etag: W/"4464d10abf7bbe1417dd6f1c1fe37211"[\r][\n]"
+2023-03-30 15:14:50.931 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 15:14:50.931 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 15:14:50.931 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 15:14:50.931 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 15:14:50.931 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 15:14:50.931 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 15:14:50.931 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 15:14:50.932 [DEBUG] -  << "x-ratelimit-remaining: 89[\r][\n]"
+2023-03-30 15:14:50.932 [DEBUG] -  << "x-ratelimit-reset: 1[\r][\n]"
+2023-03-30 15:14:50.932 [DEBUG] -  << "x-request-id: 0304b79f-ae51-430b-b6d1-3479b6531c23[\r][\n]"
+2023-03-30 15:14:50.932 [DEBUG] -  << "x-runtime: 0.057147[\r][\n]"
+2023-03-30 15:14:50.932 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 15:14:50.932 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 15:14:50.932 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EofYwIZZcaHKUl%2FgFF1Xq2ufiSIdK4l%2Fbi6c0xJkHkKIjszE9HdLUTdB9qQgnKPXlFdEKMkEwyxq2NGSHeDmVIUbL8PkvZv8KP3n9AZd43lBB4Pt46r1FZWNbHKArVc%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:50.932 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:50.933 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 15:14:50.933 [DEBUG] -  << "CF-RAY: 7b009e315ded3bc4-WAW[\r][\n]"
+2023-03-30 15:14:50.933 [DEBUG] -  << "Content-Encoding: gzip[\r][\n]"
+2023-03-30 15:14:50.933 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 15:14:50.933 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:50.933 [DEBUG] - Receiving response: HTTP/1.1 200 OK
+2023-03-30 15:14:50.933 [DEBUG] - << HTTP/1.1 200 OK
+2023-03-30 15:14:50.933 [DEBUG] - << Date: Thu, 30 Mar 2023 13:14:50 GMT
+2023-03-30 15:14:50.933 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 15:14:50.933 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 15:14:50.933 [DEBUG] - << Connection: keep-alive
+2023-03-30 15:14:50.934 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 15:14:50.934 [DEBUG] - << etag: W/"4464d10abf7bbe1417dd6f1c1fe37211"
+2023-03-30 15:14:50.934 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 15:14:50.934 [DEBUG] - << vary: Origin
+2023-03-30 15:14:50.934 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 15:14:50.934 [DEBUG] - << x-download-options: noopen
+2023-03-30 15:14:50.934 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 15:14:50.934 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 15:14:50.934 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 15:14:50.934 [DEBUG] - << x-ratelimit-remaining: 89
+2023-03-30 15:14:50.934 [DEBUG] - << x-ratelimit-reset: 1
+2023-03-30 15:14:50.934 [DEBUG] - << x-request-id: 0304b79f-ae51-430b-b6d1-3479b6531c23
+2023-03-30 15:14:50.934 [DEBUG] - << x-runtime: 0.057147
+2023-03-30 15:14:50.935 [DEBUG] - << x-xss-protection: 0
+2023-03-30 15:14:50.935 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 15:14:50.935 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EofYwIZZcaHKUl%2FgFF1Xq2ufiSIdK4l%2Fbi6c0xJkHkKIjszE9HdLUTdB9qQgnKPXlFdEKMkEwyxq2NGSHeDmVIUbL8PkvZv8KP3n9AZd43lBB4Pt46r1FZWNbHKArVc%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 15:14:50.935 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 15:14:50.935 [DEBUG] - << Server: cloudflare
+2023-03-30 15:14:50.935 [DEBUG] - << CF-RAY: 7b009e315ded3bc4-WAW
+2023-03-30 15:14:50.935 [DEBUG] - << Content-Encoding: gzip
+2023-03-30 15:14:50.935 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 15:14:50.937 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:50.937 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 15:14:50.937 [DEBUG] -  << "89[\r][\n]"
+2023-03-30 15:14:50.937 [DEBUG] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]L[0xca]A[\n]"
+2023-03-30 15:14:50.938 [DEBUG] -  << "[0xc3] [0x10]F[0xe1][0xbb][0xfc]k[0x9][0xb1][0x8d][0xd6][0xcc][0xaa]7[0x9][0x83]N[0x8b][0xa0][0x16][0xea][0xa4][0x9b][0x90][0xbb][0x97][0x84].[0xba][0xfb][0x1e][0xbc][\r]U[0x94]Am-[0xc5] [0xf1][0xe1][\r]9[0x81][0xdc][0xec]'[0xef][\r][0x1a]W[0x1]A[0xa5][0xeb]rx[0xb1]>[0x8c]6\[0xc6]p[0x9b][0x83][0x83][0x81]T[0xce][0xe5]w[0xc]g[0xfc][0x1f][0xd7][0xbb]uQ[0x86][0xf8][0xaa]0xJK[0xf2][0x6][0xe1]![0x95][0x8b][0xc0][0xa0]+[0xeb][0xda]A[0xe0][0xa8][0xf9]#[0xd8][0xf7]/[0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xc4]A[0x95][0x9f][0x92][0x0][0x0][0x0]"
+2023-03-30 15:14:50.938 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:50.938 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 15:14:50.938 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:50.939 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 15:14:50.940 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2c2a7d53
+2023-03-30 15:14:50.940 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:50.951 [INFO] - Update user
+2023-03-30 15:14:50.974 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 15:14:50.975 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 15:14:51.012 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 15:14:51.012 [DEBUG] - Auth cache not set in the context
+2023-03-30 15:14:51.012 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 15:14:51.012 [DEBUG] - Attempt 1 to execute request
+2023-03-30 15:14:51.012 [DEBUG] - Sending request: PUT /public/v1/users/596466 HTTP/1.1
+2023-03-30 15:14:51.013 [DEBUG] -  >> "PUT /public/v1/users/596466 HTTP/1.1[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "Content-Length: 116[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 15:14:51.013 [DEBUG] - >> PUT /public/v1/users/596466 HTTP/1.1
+2023-03-30 15:14:51.013 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 15:14:51.013 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 15:14:51.013 [DEBUG] - >> Content-Type: application/json
+2023-03-30 15:14:51.013 [DEBUG] - >> Content-Length: 116
+2023-03-30 15:14:51.014 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 15:14:51.014 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 15:14:51.014 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 15:14:51.014 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 15:14:51.014 [DEBUG] -  >> "{"name":"UpdatedName1680182090950","gender":"male","email":"UpdatedEmail1680182090950@test.com","status":"inactive"}"
+2023-03-30 15:14:51.992 [DEBUG] -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-03-30 15:14:51.992 [DEBUG] -  << "Date: Thu, 30 Mar 2023 13:14:51 GMT[\r][\n]"
+2023-03-30 15:14:51.992 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 15:14:51.992 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 15:14:51.992 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 15:14:51.992 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 15:14:51.992 [DEBUG] -  << "etag: W/"3b4c1fcda5986d9b0f0b2ec8a7bc1466"[\r][\n]"
+2023-03-30 15:14:51.992 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-ratelimit-remaining: 89[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-ratelimit-reset: 1[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-request-id: 998e12fe-76a8-4a46-a9ab-75a11d3d5101[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-runtime: 0.335880[\r][\n]"
+2023-03-30 15:14:51.993 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=12Wb4Aplb80JfqdlifPrP8QWllkI6q%2FOWejprAwICb71bbBB4YmB9HedZ4u%2BSJ6UI5%2F2VOLqJgHyvU3pU%2FauEO%2FZOBwL53jbiAG4X3r3UnX8U9fuZAfZg%2BGQ9LQNHck%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] -  << "CF-RAY: 7b009e355831c019-WAW[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] -  << "Content-Encoding: gzip[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:51.994 [DEBUG] - Receiving response: HTTP/1.1 200 OK
+2023-03-30 15:14:51.994 [DEBUG] - << HTTP/1.1 200 OK
+2023-03-30 15:14:51.995 [DEBUG] - << Date: Thu, 30 Mar 2023 13:14:51 GMT
+2023-03-30 15:14:51.995 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 15:14:51.995 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 15:14:51.995 [DEBUG] - << Connection: keep-alive
+2023-03-30 15:14:51.995 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 15:14:51.995 [DEBUG] - << etag: W/"3b4c1fcda5986d9b0f0b2ec8a7bc1466"
+2023-03-30 15:14:51.995 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 15:14:51.995 [DEBUG] - << vary: Origin
+2023-03-30 15:14:51.995 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 15:14:51.995 [DEBUG] - << x-download-options: noopen
+2023-03-30 15:14:51.995 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 15:14:51.995 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 15:14:51.995 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 15:14:51.995 [DEBUG] - << x-ratelimit-remaining: 89
+2023-03-30 15:14:51.995 [DEBUG] - << x-ratelimit-reset: 1
+2023-03-30 15:14:51.995 [DEBUG] - << x-request-id: 998e12fe-76a8-4a46-a9ab-75a11d3d5101
+2023-03-30 15:14:51.996 [DEBUG] - << x-runtime: 0.335880
+2023-03-30 15:14:51.996 [DEBUG] - << x-xss-protection: 0
+2023-03-30 15:14:51.996 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 15:14:51.996 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=12Wb4Aplb80JfqdlifPrP8QWllkI6q%2FOWejprAwICb71bbBB4YmB9HedZ4u%2BSJ6UI5%2F2VOLqJgHyvU3pU%2FauEO%2FZOBwL53jbiAG4X3r3UnX8U9fuZAfZg%2BGQ9LQNHck%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 15:14:51.996 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 15:14:51.996 [DEBUG] - << Server: cloudflare
+2023-03-30 15:14:51.996 [DEBUG] - << CF-RAY: 7b009e355831c019-WAW
+2023-03-30 15:14:51.996 [DEBUG] - << Content-Encoding: gzip
+2023-03-30 15:14:51.996 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 15:14:51.996 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:51.997 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 15:14:51.997 [DEBUG] -  << "8a[\r][\n]"
+2023-03-30 15:14:51.997 [DEBUG] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]T[0x8a][0xb1][\n]"
+2023-03-30 15:14:51.997 [DEBUG] -  << "[0xc3]0[0xc][0x5][0xff][0xe5][0xcd][0xa6]8[0xa5]1[0xb1][0xa6].][0xbb][0xf5][0x3]D,[0x8a][0xc1]rK[0xad]d[0x9][0xf9][0xf7][0xe2])d[0xbb];n[0x83][0x8a]1[0xa8].[0xa5]8$[0xee][0xbc]A[0x94]s[0x1][0xe1][0xf5]Ml[0x92][0x1e]][0x87]0[0xf9]a[0xba][0xfa][0xe8][0xe3][0xe8][0xef]&[0xcd].[0xf3]G[0xe1]PY[0xe5]x[0x9f][0xac]rZ[0xe1][0xf0][0x96][0x9a][0xe4][0x7][0x82]r[0x11]84c[[0x1a][0x8][0xb9][0xf2]ly[0xed]-'[0xd0][0x18][0xc3]-[0x84]}[0xff][0x3][0x0][0x0][0xff][0xff][0x3][0x0][0x83][0x5]J[0xe5][0x95][0x0][0x0][0x0]"
+2023-03-30 15:14:51.997 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:51.997 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 15:14:51.997 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:51.997 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 15:14:51.998 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@31b6b0c7
+2023-03-30 15:14:51.998 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:52.007 [INFO] - Patch user
+2023-03-30 15:14:52.029 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 15:14:52.029 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 15:14:52.065 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 15:14:52.065 [DEBUG] - Auth cache not set in the context
+2023-03-30 15:14:52.065 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 15:14:52.065 [DEBUG] - Attempt 1 to execute request
+2023-03-30 15:14:52.065 [DEBUG] - Sending request: PATCH /public/v1/users/596466 HTTP/1.1
+2023-03-30 15:14:52.065 [DEBUG] -  >> "PATCH /public/v1/users/596466 HTTP/1.1[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "Content-Length: 2[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 15:14:52.066 [DEBUG] - >> PATCH /public/v1/users/596466 HTTP/1.1
+2023-03-30 15:14:52.066 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 15:14:52.066 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 15:14:52.066 [DEBUG] - >> Content-Type: application/json
+2023-03-30 15:14:52.066 [DEBUG] - >> Content-Length: 2
+2023-03-30 15:14:52.067 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 15:14:52.067 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 15:14:52.067 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 15:14:52.067 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 15:14:52.067 [DEBUG] -  >> "{}"
+2023-03-30 15:14:52.694 [DEBUG] -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "Date: Thu, 30 Mar 2023 13:14:52 GMT[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "etag: W/"aa4df86624d1d774fd8b00f29bba1932"[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 15:14:52.695 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "x-ratelimit-remaining: 89[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "x-ratelimit-reset: 1[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "x-request-id: 955f0184-5efd-4d5f-9085-9399ec4b7a5c[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "x-runtime: 0.093140[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Sh62MSGFH%2BDwDO%2BamqhxlpMQi6FyqwgfpZ9RYOEpwcIDdedZsJAEhGE9WwYhIGZsyRMnMlGaRWMou4%2FtCA9cLckwSI%2BOMFoGSfQTXXzREZc8ZtnacvuEVEa%2BN%2Bcv7LA%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "CF-RAY: 7b009e3bee561636-WAW[\r][\n]"
+2023-03-30 15:14:52.696 [DEBUG] -  << "Content-Encoding: gzip[\r][\n]"
+2023-03-30 15:14:52.697 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 15:14:52.697 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:52.697 [DEBUG] - Receiving response: HTTP/1.1 200 OK
+2023-03-30 15:14:52.697 [DEBUG] - << HTTP/1.1 200 OK
+2023-03-30 15:14:52.697 [DEBUG] - << Date: Thu, 30 Mar 2023 13:14:52 GMT
+2023-03-30 15:14:52.697 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 15:14:52.697 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 15:14:52.697 [DEBUG] - << Connection: keep-alive
+2023-03-30 15:14:52.697 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 15:14:52.697 [DEBUG] - << etag: W/"aa4df86624d1d774fd8b00f29bba1932"
+2023-03-30 15:14:52.697 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 15:14:52.697 [DEBUG] - << vary: Origin
+2023-03-30 15:14:52.697 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 15:14:52.697 [DEBUG] - << x-download-options: noopen
+2023-03-30 15:14:52.697 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 15:14:52.697 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 15:14:52.697 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 15:14:52.697 [DEBUG] - << x-ratelimit-remaining: 89
+2023-03-30 15:14:52.698 [DEBUG] - << x-ratelimit-reset: 1
+2023-03-30 15:14:52.698 [DEBUG] - << x-request-id: 955f0184-5efd-4d5f-9085-9399ec4b7a5c
+2023-03-30 15:14:52.698 [DEBUG] - << x-runtime: 0.093140
+2023-03-30 15:14:52.698 [DEBUG] - << x-xss-protection: 0
+2023-03-30 15:14:52.698 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 15:14:52.698 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Sh62MSGFH%2BDwDO%2BamqhxlpMQi6FyqwgfpZ9RYOEpwcIDdedZsJAEhGE9WwYhIGZsyRMnMlGaRWMou4%2FtCA9cLckwSI%2BOMFoGSfQTXXzREZc8ZtnacvuEVEa%2BN%2Bcv7LA%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 15:14:52.698 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 15:14:52.698 [DEBUG] - << Server: cloudflare
+2023-03-30 15:14:52.698 [DEBUG] - << CF-RAY: 7b009e3bee561636-WAW
+2023-03-30 15:14:52.698 [DEBUG] - << Content-Encoding: gzip
+2023-03-30 15:14:52.698 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 15:14:52.698 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:52.698 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 15:14:52.698 [DEBUG] -  << "8b[\r][\n]"
+2023-03-30 15:14:52.699 [DEBUG] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]T[0xca][0xb1][\n]"
+2023-03-30 15:14:52.699 [DEBUG] -  << "[0xc2]0[0x10][0x87][0xf1]w[0xf9][0xcf][0x87][0xa4]bC[0x93][0xc9][0xc5][0xd5][0xcd][0x7]8z[0x87][0x4]rQ[0xcc][0xb5]K[0xe9][0xbb]K'q[0xfb]>[0xf8]m0uFnK[0xad][0x4][0xe1][0xa3]7[0x14]A[0x1e]S[0xbc][0xc4]Hhl[0x8a][0x8c][0xc7][[0xd8]U[0xee]l:[0xc4])[0xc][0xd3]9[0xa4][0x90][0xc6][0x0][0x82][0x1a][0x97][0xfa]#[0xb7]c[0xff][0xcc][0xd5][0xb5][0xfb]i~[0x19][0x8]Om[0xa2][0x1f]d[0x18]W[0x5][0xa1];[0xfb][0xd2][0x91]Q[0x1a][0xcf]^V[0xc5][0xbe][0x1][0x0][0x0][0xff][0xff][0x3][0x0]<[0xca][0x87]f[0x95][0x0][0x0][0x0]"
+2023-03-30 15:14:52.699 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:52.699 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 15:14:52.699 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:52.699 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 15:14:52.700 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c1c9881
+2023-03-30 15:14:52.700 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:52.748 [INFO] - Delete user
+2023-03-30 15:14:52.763 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 15:14:52.763 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 15:14:52.800 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 15:14:52.800 [DEBUG] - Auth cache not set in the context
+2023-03-30 15:14:52.800 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 15:14:52.800 [DEBUG] - Attempt 1 to execute request
+2023-03-30 15:14:52.800 [DEBUG] - Sending request: DELETE /public/v1/users/596466 HTTP/1.1
+2023-03-30 15:14:52.800 [DEBUG] -  >> "DELETE /public/v1/users/596466 HTTP/1.1[\r][\n]"
+2023-03-30 15:14:52.800 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 15:14:52.800 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 15:14:52.800 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 15:14:52.800 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 15:14:52.800 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 15:14:52.801 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 15:14:52.801 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 15:14:52.801 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 15:14:52.801 [DEBUG] - >> DELETE /public/v1/users/596466 HTTP/1.1
+2023-03-30 15:14:52.801 [DEBUG] - >> Content-Type: application/json
+2023-03-30 15:14:52.801 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 15:14:52.801 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 15:14:52.801 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 15:14:52.801 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 15:14:52.801 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 15:14:52.801 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 15:14:53.084 [DEBUG] -  << "HTTP/1.1 204 No Content[\r][\n]"
+2023-03-30 15:14:53.084 [DEBUG] -  << "Date: Thu, 30 Mar 2023 13:14:53 GMT[\r][\n]"
+2023-03-30 15:14:53.084 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "Cache-Control: no-cache[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-ratelimit-remaining: 89[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-ratelimit-reset: 2[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-request-id: 7b7f7856-2a50-4d9b-9311-11d8f12f74c2[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-runtime: 0.087619[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 15:14:53.085 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sr%2Bc6KpnVd82LWr%2BT8rCEPBk64a%2BhnB08o1poR9cOynUYlUBZo843sjxVkQ%2F9WBEmY09AaKFTXbJz6KEKphWQ5xOkI7P7eNzA0gkNrWQpf8HcrIwkjdTErXaFGgdR4g%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:53.086 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:53.086 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 15:14:53.086 [DEBUG] -  << "CF-RAY: 7b009e408b6efc8f-WAW[\r][\n]"
+2023-03-30 15:14:53.086 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 15:14:53.086 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:53.086 [DEBUG] - Receiving response: HTTP/1.1 204 No Content
+2023-03-30 15:14:53.086 [DEBUG] - << HTTP/1.1 204 No Content
+2023-03-30 15:14:53.086 [DEBUG] - << Date: Thu, 30 Mar 2023 13:14:53 GMT
+2023-03-30 15:14:53.086 [DEBUG] - << Connection: keep-alive
+2023-03-30 15:14:53.086 [DEBUG] - << Cache-Control: no-cache
+2023-03-30 15:14:53.086 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 15:14:53.086 [DEBUG] - << vary: Origin
+2023-03-30 15:14:53.086 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 15:14:53.086 [DEBUG] - << x-download-options: noopen
+2023-03-30 15:14:53.086 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 15:14:53.086 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 15:14:53.086 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 15:14:53.086 [DEBUG] - << x-ratelimit-remaining: 89
+2023-03-30 15:14:53.086 [DEBUG] - << x-ratelimit-reset: 2
+2023-03-30 15:14:53.086 [DEBUG] - << x-request-id: 7b7f7856-2a50-4d9b-9311-11d8f12f74c2
+2023-03-30 15:14:53.086 [DEBUG] - << x-runtime: 0.087619
+2023-03-30 15:14:53.086 [DEBUG] - << x-xss-protection: 0
+2023-03-30 15:14:53.087 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 15:14:53.087 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sr%2Bc6KpnVd82LWr%2BT8rCEPBk64a%2BhnB08o1poR9cOynUYlUBZo843sjxVkQ%2F9WBEmY09AaKFTXbJz6KEKphWQ5xOkI7P7eNzA0gkNrWQpf8HcrIwkjdTErXaFGgdR4g%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 15:14:53.087 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 15:14:53.087 [DEBUG] - << Server: cloudflare
+2023-03-30 15:14:53.087 [DEBUG] - << CF-RAY: 7b009e408b6efc8f-WAW
+2023-03-30 15:14:53.087 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 15:14:53.087 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:53.087 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@10166230
+2023-03-30 15:14:53.087 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:58.175 [INFO] - Get users list
+2023-03-30 15:14:58.190 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 15:14:58.190 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 15:14:58.229 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 15:14:58.229 [DEBUG] - Auth cache not set in the context
+2023-03-30 15:14:58.229 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 15:14:58.229 [DEBUG] - Attempt 1 to execute request
+2023-03-30 15:14:58.229 [DEBUG] - Sending request: GET /public/v1/users HTTP/1.1
+2023-03-30 15:14:58.229 [DEBUG] -  >> "GET /public/v1/users HTTP/1.1[\r][\n]"
+2023-03-30 15:14:58.229 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 15:14:58.229 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 15:14:58.229 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 15:14:58.229 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 15:14:58.229 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 15:14:58.229 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 15:14:58.229 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 15:14:58.230 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 15:14:58.230 [DEBUG] - >> GET /public/v1/users HTTP/1.1
+2023-03-30 15:14:58.230 [DEBUG] - >> Content-Type: application/json
+2023-03-30 15:14:58.230 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 15:14:58.230 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 15:14:58.230 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 15:14:58.230 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 15:14:58.230 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 15:14:58.230 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 15:14:58.545 [DEBUG] -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "Date: Thu, 30 Mar 2023 13:14:58 GMT[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "etag: W/"f459a1e2f11a106ce728c15fae12e5b3"[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 15:14:58.546 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-ratelimit-remaining: 88[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-ratelimit-reset: 1[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-request-id: 26cd7b74-bb6d-458d-b9c3-0e42b10b688c[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-runtime: 0.078432[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HfZrms6pAT7Z7WpZc%2FbApybMWXpEYWfwLrPKdW33Ds9AidgWne2qmWdrbujxZbghroSq8v1Nk9ZxFYyBc3ab%2FZiE4Cw2F1vT4Dsc%2FB2RWSO0DppxcWkjhFj43pxxSX8%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "CF-RAY: 7b009e627fc03bcb-WAW[\r][\n]"
+2023-03-30 15:14:58.547 [DEBUG] -  << "Content-Encoding: gzip[\r][\n]"
+2023-03-30 15:14:58.548 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 15:14:58.548 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:58.548 [DEBUG] - Receiving response: HTTP/1.1 200 OK
+2023-03-30 15:14:58.548 [DEBUG] - << HTTP/1.1 200 OK
+2023-03-30 15:14:58.548 [DEBUG] - << Date: Thu, 30 Mar 2023 13:14:58 GMT
+2023-03-30 15:14:58.548 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 15:14:58.548 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 15:14:58.548 [DEBUG] - << Connection: keep-alive
+2023-03-30 15:14:58.548 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 15:14:58.548 [DEBUG] - << etag: W/"f459a1e2f11a106ce728c15fae12e5b3"
+2023-03-30 15:14:58.548 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 15:14:58.548 [DEBUG] - << vary: Origin
+2023-03-30 15:14:58.548 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 15:14:58.548 [DEBUG] - << x-download-options: noopen
+2023-03-30 15:14:58.548 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 15:14:58.548 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 15:14:58.548 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 15:14:58.548 [DEBUG] - << x-ratelimit-remaining: 88
+2023-03-30 15:14:58.548 [DEBUG] - << x-ratelimit-reset: 1
+2023-03-30 15:14:58.549 [DEBUG] - << x-request-id: 26cd7b74-bb6d-458d-b9c3-0e42b10b688c
+2023-03-30 15:14:58.549 [DEBUG] - << x-runtime: 0.078432
+2023-03-30 15:14:58.549 [DEBUG] - << x-xss-protection: 0
+2023-03-30 15:14:58.549 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 15:14:58.549 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HfZrms6pAT7Z7WpZc%2FbApybMWXpEYWfwLrPKdW33Ds9AidgWne2qmWdrbujxZbghroSq8v1Nk9ZxFYyBc3ab%2FZiE4Cw2F1vT4Dsc%2FB2RWSO0DppxcWkjhFj43pxxSX8%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 15:14:58.549 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 15:14:58.549 [DEBUG] - << Server: cloudflare
+2023-03-30 15:14:58.549 [DEBUG] - << CF-RAY: 7b009e627fc03bcb-WAW
+2023-03-30 15:14:58.549 [DEBUG] - << Content-Encoding: gzip
+2023-03-30 15:14:58.549 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 15:14:58.549 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:58.550 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 15:14:58.550 [DEBUG] -  << "22d[\r][\n]"
+2023-03-30 15:14:58.550 [DEBUG] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x94][0x93]oo[0xda]0[0x10][0xc6][0xbf]Jt[0xaf]C(t[0xd0]-[0xd2][0xb4]0[0xed][0x8f][0xb4][0xa9][%[0xb4]W[0xd3]d][0x92]#>[0xe2][0x9c][0x91][0xed][0xd0][0xd1][0x8a][0xef]^[0x5][\n]"
+2023-03-30 15:14:58.550 [DEBUG] -  << "[0xcd][0x8a][0xb4][0x96]w[0xbe][0xe7][0xb1][0xfd][0xd3]=g[0xdf]CC[0x1]![0xbd][0x87][0x15]V,[0x18][0xd8]JW[0x5][0x1b][0xd0]@:[0xba][0x9a]N[0xe3][0xce]"[0xdf][0x15]W[0xfb]5[0xa4][0xa3][0x18][0xc]7[0x1c] [0x1d]]tK[0xa9][0xfd][0xee][0xe]Gk[0xb6][0xad][0x87]TZcb(Z[0xe7]H[0x2][0xa4][0xa0]CX[0xf9]t8[0xac][0xac]#[0x1f][0x92][0xc2]&,[0xc3]U[0x9b][0x1b].[0x86][0xeb][0xd1][0xb0][0xf5][0xe4][0xfc][0x87][0xee][0xee][0xf7]#[0x88]A[0xe8][0xef]y[0x87][0xc6][0xb0][0xdd]nc([0xb1][0xeb][0xe5][0xf7]=p[0x9][0xe9][0xe5][0xf8]j[0x1c][0x83]`C[0x90][0xc2][0xb5]O[0xa2][0x99][0xdc][0x92][0xd7][0x18]}E[0xc1][0x1a]![0x6]j[0x90][\r][0xa4]P[0xed][0x4][0x85]{_5>+[0x9c][0xb5][0xb5]O[0xac][0xab] [0x86][0x8a][0xa4]$[0x7])4h[0x8]b[0xf0][0x1]C[0xd7]#[0xb0]`[0x11]xM[0xb0][0x8d][0xf][0xc8][0xe9][0xbb]#[0xf2][0x8b]K[0xa2][0x99][0xdb][0xa0]D[0xdf]qe[0xad][0xeb][0x1][0xeb][0x9d][0xa0][0xb0]s[0xd5][0xc2]eK[0x92][0x9a][0xc5][0xf]rr"
+2023-03-30 15:14:58.551 [DEBUG] -  << "[0x95]`[0xdb]$[0x85][0xed]s[0x17][0xf4][0x9c]|[0xca][0x9d][0x1c][0xb9]?[0xd8][0xe5][0x1a]7[0xd1][0xac][0xd0][0xe8][0xb8]G[0xc5][0x9d][0xa0]d[0xef]g[0xb9][0xb1]E=[0xa8][0x1c][0x91],[0xc8][0x94][0xe4][0x12][0xa1]pn[0xbb][0x97]G[0xec]'[0xee]Bt[0xd1][0x8d][\r][0xba]]#[0x9a][0x1e]yu[0xd0]T[0xb9][0xdf][0x95]Y[0xe3][0xad]$[0x85]m[0xfe][0x7]<[0xc5]]<[\r][0x14][0xa5]D[0xac]Y[0xa2][0x1b]6[0xa6]?[0xcd][0xe6][0xe0][0xa8]U[0xe7]d[0x86]C 3X`I[0xe6][0xa5][0x16]O[0x88][0x93][0xa7]y^[0xb3][0xf7][0xd1][0xe7][0x1a][0xb1][0xf6]:[0x9a][0xb3][0xe8]>[0x94][0xf6][0xba][0xf2][0x9d][0xae][0x1a][0xf6]>[0xc3][0x9c][0x9c]`[0xd0][0x9b][0x84][0xed][0x99][0xb1]N[0x9e][0x1e][0xee][0xc7][0xb6],5[\n]"
+2023-03-30 15:14:58.551 [DEBUG] -  << "F[0xdf][0xfe][0xe1]-5[0xaa][0xfc][0xd1][0xca][0xee]r+[0x5][0xd6][0xcf]^[0xcd]k8[0xa3]#[0xe7][0xe7][0x12][0xfd]-[0xb]?[0xe3][0xd8]GY-5ff#[0x85]Nr[0xbe];+[0xc2]7o[0x8f][0x90]_[0xae]a[0x83][0xd1]L[0x9b][0xf6][0x16][\r][0xf7]Ax[0xd0]T[0xbb][0xdb][0x94][0xe5][0x84]!l[0x6][0xa5][0x15]!c^[\n]"
+2023-03-30 15:14:58.551 [DEBUG] -  << "[0xf1][0x94]:=R[0xe7][0xed][0x12][0x3]Fsd[0xe9][0x7][0xdf][0xd5][0xca][0xef][0xcc]L[0xb8][0xb6][0x6][[0xff][0xea][0xc][0xff]l[0x1f][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xb][0x93]q[0x1e];[0x5][0x0][0x0]"
+2023-03-30 15:14:58.551 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:58.551 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 15:14:58.551 [DEBUG] -  << "[\r][\n]"
+2023-03-30 15:14:58.551 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 15:14:58.552 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5ddb302
+2023-03-30 15:14:58.552 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 15:14:59.019 [DEBUG] - Connection 0.0.0.0:52252<->172.67.180.38:443 closed
+2023-03-30 15:14:59.024 [DEBUG] - Connection 0.0.0.0:52283<->172.67.180.38:443 closed
+2023-03-30 15:14:59.033 [DEBUG] - Connection 0.0.0.0:52262<->172.67.180.38:443 closed
+2023-03-30 15:14:59.037 [DEBUG] - Connection 0.0.0.0:52257<->172.67.180.38:443 closed
+2023-03-30 15:14:59.040 [DEBUG] - Connection 0.0.0.0:52247<->172.67.180.38:443 closed
+2023-03-30 15:14:59.042 [DEBUG] - Connection 0.0.0.0:52242<->172.67.180.38:443 closed
 2023-03-29 16:28:35.252 [INFO] - Create a user
 2023-03-29 16:28:36.264 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
 2023-03-29 16:28:36.329 [DEBUG] - Connecting to gorest.co.in:443
@@ -3112,3 +3653,544 @@
 2023-03-29 16:28:45.702 [DEBUG] - Connection 0.0.0.0:52154<->104.21.67.198:443 closed
 2023-03-29 16:28:45.704 [DEBUG] - Connection 0.0.0.0:52168<->104.21.67.198:443 closed
 2023-03-29 16:28:45.706 [DEBUG] - Connection 0.0.0.0:52166<->104.21.67.198:443 closed
+2023-03-30 18:09:04.111 [INFO] - Create a user
+2023-03-30 18:09:04.986 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 18:09:05.054 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 18:09:05.191 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 18:09:05.192 [DEBUG] - Auth cache not set in the context
+2023-03-30 18:09:05.192 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 18:09:05.193 [DEBUG] - Attempt 1 to execute request
+2023-03-30 18:09:05.193 [DEBUG] - Sending request: POST /public/v1/users HTTP/1.1
+2023-03-30 18:09:05.193 [DEBUG] -  >> "POST /public/v1/users HTTP/1.1[\r][\n]"
+2023-03-30 18:09:05.194 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] -  >> "Content-Length: 113[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 18:09:05.195 [DEBUG] - >> POST /public/v1/users HTTP/1.1
+2023-03-30 18:09:05.196 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 18:09:05.196 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 18:09:05.196 [DEBUG] - >> Content-Type: application/json
+2023-03-30 18:09:05.196 [DEBUG] - >> Content-Length: 113
+2023-03-30 18:09:05.196 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 18:09:05.196 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 18:09:05.196 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 18:09:05.196 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 18:09:05.196 [DEBUG] -  >> "{"name":"test_name_1680192544100","gender":"male","email":"test.email1680192544096@15ce.com","status":"inactive"}"
+2023-03-30 18:09:05.777 [DEBUG] -  << "HTTP/1.1 201 Created[\r][\n]"
+2023-03-30 18:09:05.779 [DEBUG] -  << "Date: Thu, 30 Mar 2023 16:09:05 GMT[\r][\n]"
+2023-03-30 18:09:05.779 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "etag: W/"db6726ddb2de58d9c354db9a24e0fb84"[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "location: https://gorest.co.in/public/v1/users/599156[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 18:09:05.780 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "x-ratelimit-remaining: 89[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "x-ratelimit-reset: 1[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "x-request-id: 695cf7bc-ea9e-4583-a0f1-d7ed8e847f1a[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "x-runtime: 0.090380[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 18:09:05.781 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 18:09:05.782 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oIe0QCsdwYZkeFdXgUhTWTAoNgwnUJ7qDRMVVmTpgFVQpX3%2BAsyD65bImQ3Al4yeICnmGVHgfIZgKMKjUZC4hLpP8FQZxRGHUCo7AxONm1SIi7k2yHO%2Ba7Sc2BnrXjw%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:05.782 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:05.782 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 18:09:05.782 [DEBUG] -  << "CF-RAY: 7b019d702a113566-WAW[\r][\n]"
+2023-03-30 18:09:05.782 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 18:09:05.782 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:05.783 [DEBUG] - Receiving response: HTTP/1.1 201 Created
+2023-03-30 18:09:05.783 [DEBUG] - << HTTP/1.1 201 Created
+2023-03-30 18:09:05.783 [DEBUG] - << Date: Thu, 30 Mar 2023 16:09:05 GMT
+2023-03-30 18:09:05.783 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 18:09:05.783 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 18:09:05.783 [DEBUG] - << Connection: keep-alive
+2023-03-30 18:09:05.783 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 18:09:05.783 [DEBUG] - << etag: W/"db6726ddb2de58d9c354db9a24e0fb84"
+2023-03-30 18:09:05.784 [DEBUG] - << location: https://gorest.co.in/public/v1/users/599156
+2023-03-30 18:09:05.784 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 18:09:05.784 [DEBUG] - << vary: Origin
+2023-03-30 18:09:05.784 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 18:09:05.784 [DEBUG] - << x-download-options: noopen
+2023-03-30 18:09:05.784 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 18:09:05.784 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 18:09:05.784 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 18:09:05.784 [DEBUG] - << x-ratelimit-remaining: 89
+2023-03-30 18:09:05.784 [DEBUG] - << x-ratelimit-reset: 1
+2023-03-30 18:09:05.784 [DEBUG] - << x-request-id: 695cf7bc-ea9e-4583-a0f1-d7ed8e847f1a
+2023-03-30 18:09:05.784 [DEBUG] - << x-runtime: 0.090380
+2023-03-30 18:09:05.785 [DEBUG] - << x-xss-protection: 0
+2023-03-30 18:09:05.785 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 18:09:05.785 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oIe0QCsdwYZkeFdXgUhTWTAoNgwnUJ7qDRMVVmTpgFVQpX3%2BAsyD65bImQ3Al4yeICnmGVHgfIZgKMKjUZC4hLpP8FQZxRGHUCo7AxONm1SIi7k2yHO%2Ba7Sc2BnrXjw%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 18:09:05.785 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 18:09:05.785 [DEBUG] - << Server: cloudflare
+2023-03-30 18:09:05.785 [DEBUG] - << CF-RAY: 7b019d702a113566-WAW
+2023-03-30 18:09:05.785 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 18:09:05.789 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:05.804 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 18:09:05.805 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 18:09:05.827 [DEBUG] -  << "92[\r][\n]"
+2023-03-30 18:09:05.827 [DEBUG] -  << "{"meta":null,"data":{"id":599156,"name":"test_name_1680192544100","email":"test.email1680192544096@15ce.com","gender":"male","status":"inactive"}}"
+2023-03-30 18:09:05.827 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:05.828 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 18:09:05.828 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:05.828 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2ee92e7d
+2023-03-30 18:09:05.828 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:06.061 [INFO] - Get user by userId
+2023-03-30 18:09:06.120 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 18:09:06.120 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 18:09:06.165 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 18:09:06.165 [DEBUG] - Auth cache not set in the context
+2023-03-30 18:09:06.165 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 18:09:06.165 [DEBUG] - Attempt 1 to execute request
+2023-03-30 18:09:06.165 [DEBUG] - Sending request: GET /public/v1/users/599156 HTTP/1.1
+2023-03-30 18:09:06.165 [DEBUG] -  >> "GET /public/v1/users/599156 HTTP/1.1[\r][\n]"
+2023-03-30 18:09:06.165 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 18:09:06.165 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 18:09:06.166 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 18:09:06.166 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 18:09:06.166 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 18:09:06.166 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 18:09:06.166 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 18:09:06.166 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 18:09:06.166 [DEBUG] - >> GET /public/v1/users/599156 HTTP/1.1
+2023-03-30 18:09:06.166 [DEBUG] - >> Content-Type: application/json
+2023-03-30 18:09:06.166 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 18:09:06.166 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 18:09:06.166 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 18:09:06.167 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 18:09:06.167 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 18:09:06.167 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 18:09:06.409 [DEBUG] -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-03-30 18:09:06.409 [DEBUG] -  << "Date: Thu, 30 Mar 2023 16:09:06 GMT[\r][\n]"
+2023-03-30 18:09:06.409 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 18:09:06.409 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 18:09:06.409 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 18:09:06.409 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "etag: W/"db6726ddb2de58d9c354db9a24e0fb84"[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "x-ratelimit-remaining: 89[\r][\n]"
+2023-03-30 18:09:06.410 [DEBUG] -  << "x-ratelimit-reset: 2[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "x-request-id: 4acf6c76-b664-4303-b51b-11f46ecb9a09[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "x-runtime: 0.064303[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=klrseb%2BQvF5JN1QuW7%2FRY0%2Fxl1QXp6m3JCJLOveVoVjSpQttlReOgYiaHcbRGhmYWuqQjVThVT13%2BS90574UBLXofrrOTj%2FvSPKR3s4S3lRCQxWdhHlgXyDYZ8jJK74%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "CF-RAY: 7b019d76383234d6-WAW[\r][\n]"
+2023-03-30 18:09:06.411 [DEBUG] -  << "Content-Encoding: gzip[\r][\n]"
+2023-03-30 18:09:06.412 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 18:09:06.412 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:06.412 [DEBUG] - Receiving response: HTTP/1.1 200 OK
+2023-03-30 18:09:06.412 [DEBUG] - << HTTP/1.1 200 OK
+2023-03-30 18:09:06.412 [DEBUG] - << Date: Thu, 30 Mar 2023 16:09:06 GMT
+2023-03-30 18:09:06.412 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 18:09:06.412 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 18:09:06.412 [DEBUG] - << Connection: keep-alive
+2023-03-30 18:09:06.412 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 18:09:06.412 [DEBUG] - << etag: W/"db6726ddb2de58d9c354db9a24e0fb84"
+2023-03-30 18:09:06.412 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 18:09:06.412 [DEBUG] - << vary: Origin
+2023-03-30 18:09:06.413 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 18:09:06.413 [DEBUG] - << x-download-options: noopen
+2023-03-30 18:09:06.413 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 18:09:06.413 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 18:09:06.413 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 18:09:06.413 [DEBUG] - << x-ratelimit-remaining: 89
+2023-03-30 18:09:06.413 [DEBUG] - << x-ratelimit-reset: 2
+2023-03-30 18:09:06.413 [DEBUG] - << x-request-id: 4acf6c76-b664-4303-b51b-11f46ecb9a09
+2023-03-30 18:09:06.413 [DEBUG] - << x-runtime: 0.064303
+2023-03-30 18:09:06.413 [DEBUG] - << x-xss-protection: 0
+2023-03-30 18:09:06.413 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 18:09:06.413 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=klrseb%2BQvF5JN1QuW7%2FRY0%2Fxl1QXp6m3JCJLOveVoVjSpQttlReOgYiaHcbRGhmYWuqQjVThVT13%2BS90574UBLXofrrOTj%2FvSPKR3s4S3lRCQxWdhHlgXyDYZ8jJK74%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 18:09:06.413 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 18:09:06.413 [DEBUG] - << Server: cloudflare
+2023-03-30 18:09:06.414 [DEBUG] - << CF-RAY: 7b019d76383234d6-WAW
+2023-03-30 18:09:06.414 [DEBUG] - << Content-Encoding: gzip
+2023-03-30 18:09:06.414 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 18:09:06.414 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:06.415 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 18:09:06.415 [DEBUG] -  << "7e[\r][\n]"
+2023-03-30 18:09:06.415 [DEBUG] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]D[0xca]A[\n]"
+2023-03-30 18:09:06.415 [DEBUG] -  << "[0xc3] [0x10]F[0xe1][0xbb][0xfc]k[0x9]N[0x89]R][0xf5]&a[0xd0]![0x8]j[0xa1]N[0xba][0x9][0xb9]{H)d[0xf7]=x;[0x9a](#[0xf6][0xad]V[0x83][0xcc][0x97]w[0x94][0x8c][0xe8]B [0xe7][\r]:7A[0x84][0xca][0xd0][0xe5][0xf2]B[0xfe]i)<[0xdc]<[0x93][0xb5]0[0x90][0xc6][0xa5][0xfe][0x8f][0xe9][0x17][0xf7]a[0x83][0x91]K2[0xa5]w[0x83][0xc1]*=[0xcb][0x7][0x11][0x8d][0xab][0xc0]`([0xeb]6[0x10]Q:'-_[0xc1]q[0x9c][0x0][0x0][0x0][0xff][0xff]"
+2023-03-30 18:09:06.415 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:06.416 [DEBUG] -  << "a[\r][\n]"
+2023-03-30 18:09:06.416 [DEBUG] -  << "[0x3][0x0]![0xa5][0x8b]e[0x92][0x0][0x0][0x0]"
+2023-03-30 18:09:06.416 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:06.416 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 18:09:06.416 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:06.416 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 18:09:06.418 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f93f4c
+2023-03-30 18:09:06.418 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:06.428 [INFO] - Update user
+2023-03-30 18:09:06.455 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 18:09:06.455 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 18:09:06.492 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 18:09:06.493 [DEBUG] - Auth cache not set in the context
+2023-03-30 18:09:06.493 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 18:09:06.493 [DEBUG] - Attempt 1 to execute request
+2023-03-30 18:09:06.493 [DEBUG] - Sending request: PUT /public/v1/users/599156 HTTP/1.1
+2023-03-30 18:09:06.493 [DEBUG] -  >> "PUT /public/v1/users/599156 HTTP/1.1[\r][\n]"
+2023-03-30 18:09:06.493 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 18:09:06.493 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 18:09:06.493 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 18:09:06.493 [DEBUG] -  >> "Content-Length: 114[\r][\n]"
+2023-03-30 18:09:06.494 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 18:09:06.494 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 18:09:06.494 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 18:09:06.494 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 18:09:06.494 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 18:09:06.494 [DEBUG] - >> PUT /public/v1/users/599156 HTTP/1.1
+2023-03-30 18:09:06.494 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 18:09:06.494 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 18:09:06.494 [DEBUG] - >> Content-Type: application/json
+2023-03-30 18:09:06.494 [DEBUG] - >> Content-Length: 114
+2023-03-30 18:09:06.494 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 18:09:06.494 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 18:09:06.494 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 18:09:06.495 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 18:09:06.495 [DEBUG] -  >> "{"name":"UpdatedName1680192546428","gender":"male","email":"UpdatedEmail1680192546428@test.com","status":"active"}"
+2023-03-30 18:09:07.030 [DEBUG] -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-03-30 18:09:07.030 [DEBUG] -  << "Date: Thu, 30 Mar 2023 16:09:07 GMT[\r][\n]"
+2023-03-30 18:09:07.030 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 18:09:07.030 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 18:09:07.030 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 18:09:07.030 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 18:09:07.030 [DEBUG] -  << "etag: W/"1daf66bc5f9ccdc34d9cde4eb3aaf7d5"[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "x-ratelimit-remaining: 88[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "x-ratelimit-reset: 2[\r][\n]"
+2023-03-30 18:09:07.031 [DEBUG] -  << "x-request-id: 02970a10-3929-4618-a660-9aafbc050b4a[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "x-runtime: 0.083698[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7gmSdtXmdrpLLd%2BUMd1CbH7aIU0FUlg4m8FGcPJ%2BmuOXQnXWabdK%2F8MqfMcl0Bul19ynbVQesPTBExFfnZkWT2Jxiyc2%2B6%2BvUFwod2ck7optzcSz6YJreNJJHh%2FQKx0%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "CF-RAY: 7b019d784be8350c-WAW[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "Content-Encoding: gzip[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:07.032 [DEBUG] - Receiving response: HTTP/1.1 200 OK
+2023-03-30 18:09:07.033 [DEBUG] - << HTTP/1.1 200 OK
+2023-03-30 18:09:07.033 [DEBUG] - << Date: Thu, 30 Mar 2023 16:09:07 GMT
+2023-03-30 18:09:07.033 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 18:09:07.033 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 18:09:07.033 [DEBUG] - << Connection: keep-alive
+2023-03-30 18:09:07.033 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 18:09:07.033 [DEBUG] - << etag: W/"1daf66bc5f9ccdc34d9cde4eb3aaf7d5"
+2023-03-30 18:09:07.033 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 18:09:07.033 [DEBUG] - << vary: Origin
+2023-03-30 18:09:07.033 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 18:09:07.033 [DEBUG] - << x-download-options: noopen
+2023-03-30 18:09:07.033 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 18:09:07.033 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 18:09:07.033 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 18:09:07.033 [DEBUG] - << x-ratelimit-remaining: 88
+2023-03-30 18:09:07.034 [DEBUG] - << x-ratelimit-reset: 2
+2023-03-30 18:09:07.034 [DEBUG] - << x-request-id: 02970a10-3929-4618-a660-9aafbc050b4a
+2023-03-30 18:09:07.034 [DEBUG] - << x-runtime: 0.083698
+2023-03-30 18:09:07.034 [DEBUG] - << x-xss-protection: 0
+2023-03-30 18:09:07.034 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 18:09:07.034 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7gmSdtXmdrpLLd%2BUMd1CbH7aIU0FUlg4m8FGcPJ%2BmuOXQnXWabdK%2F8MqfMcl0Bul19ynbVQesPTBExFfnZkWT2Jxiyc2%2B6%2BvUFwod2ck7optzcSz6YJreNJJHh%2FQKx0%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 18:09:07.034 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 18:09:07.034 [DEBUG] - << Server: cloudflare
+2023-03-30 18:09:07.034 [DEBUG] - << CF-RAY: 7b019d784be8350c-WAW
+2023-03-30 18:09:07.034 [DEBUG] - << Content-Encoding: gzip
+2023-03-30 18:09:07.034 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 18:09:07.035 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:07.035 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 18:09:07.035 [DEBUG] -  << "7f[\r][\n]"
+2023-03-30 18:09:07.035 [DEBUG] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]T[0x8a][0xb1][\n]"
+2023-03-30 18:09:07.035 [DEBUG] -  << "[0x2]1[0x10][0x5][0xff][0xe5][0xd5]A[0xcc]q[0x9][0x97]T6[0xb6]v~[0xc0]r[0xbb]H [0x1b][0xc5][0xec][0xd9][0x1c][0xf7][0xef][0x92]J[0xec]f[0x86][0xd9][0xa1]b[0x84][0xdc][0xb6]Z[0x1d][0x98][0x6][0xef][0x10][0xa5]R[0x91]q1[0x99][0xf0]u[0xa8][0x8f][0xcb][0xd9][0xa7])[0xcc]q[0x9e][0x96][0x8b]I[0xb7][0xd3][0xfa]T84R[0xf9][0xbd]7R[0xf9][[0xe1][0xf0][0x90][0xc6][0xf2]F[0x86]R[0x15]8t#[0xdb]:2h[0xb5][0xf2][0x19][0xa5]0rH[0xc9][0x87]x[0x1c]_[0x0][0x0][0x0][0xff][0xff]"
+2023-03-30 18:09:07.036 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:07.036 [DEBUG] -  << "a[\r][\n]"
+2023-03-30 18:09:07.036 [DEBUG] -  << "[0x3][0x0][0x1d][0x15]?[0x93][0x93][0x0][0x0][0x0]"
+2023-03-30 18:09:07.036 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:07.036 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 18:09:07.036 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:07.036 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 18:09:07.037 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@48cf8414
+2023-03-30 18:09:07.038 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:07.048 [INFO] - Patch user
+2023-03-30 18:09:07.069 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 18:09:07.070 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 18:09:07.108 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 18:09:07.108 [DEBUG] - Auth cache not set in the context
+2023-03-30 18:09:07.108 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 18:09:07.108 [DEBUG] - Attempt 1 to execute request
+2023-03-30 18:09:07.108 [DEBUG] - Sending request: PATCH /public/v1/users/599156 HTTP/1.1
+2023-03-30 18:09:07.109 [DEBUG] -  >> "PATCH /public/v1/users/599156 HTTP/1.1[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "Content-Length: 2[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 18:09:07.109 [DEBUG] - >> PATCH /public/v1/users/599156 HTTP/1.1
+2023-03-30 18:09:07.109 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 18:09:07.109 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 18:09:07.110 [DEBUG] - >> Content-Type: application/json
+2023-03-30 18:09:07.110 [DEBUG] - >> Content-Length: 2
+2023-03-30 18:09:07.110 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 18:09:07.110 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 18:09:07.110 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 18:09:07.110 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 18:09:07.110 [DEBUG] -  >> "{}"
+2023-03-30 18:09:07.723 [DEBUG] -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "Date: Thu, 30 Mar 2023 16:09:07 GMT[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "etag: W/"c53b22dddc0399385670cf526c720a05"[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 18:09:07.723 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "x-ratelimit-remaining: 87[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "x-ratelimit-reset: 3[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "x-request-id: d61d68fe-b31d-4ec3-88f5-41f785725e2e[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "x-runtime: 0.108148[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SLUqSHMxn4AcJ4n8QcVycnT6fyBmFL5lJ7KQmawumPz81vwfUzJpRokCw3DjM%2FEA1WzhijQozoqXInWgyY3lqS%2Fqb22BNgZt%2FFgk4hWgDlXsCxuPmtrTuKv5WIKA7RE%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "CF-RAY: 7b019d7c2ec63528-WAW[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "Content-Encoding: gzip[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:07.724 [DEBUG] - Receiving response: HTTP/1.1 200 OK
+2023-03-30 18:09:07.724 [DEBUG] - << HTTP/1.1 200 OK
+2023-03-30 18:09:07.724 [DEBUG] - << Date: Thu, 30 Mar 2023 16:09:07 GMT
+2023-03-30 18:09:07.725 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 18:09:07.725 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 18:09:07.725 [DEBUG] - << Connection: keep-alive
+2023-03-30 18:09:07.725 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 18:09:07.725 [DEBUG] - << etag: W/"c53b22dddc0399385670cf526c720a05"
+2023-03-30 18:09:07.725 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 18:09:07.725 [DEBUG] - << vary: Origin
+2023-03-30 18:09:07.725 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 18:09:07.725 [DEBUG] - << x-download-options: noopen
+2023-03-30 18:09:07.725 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 18:09:07.725 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 18:09:07.725 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 18:09:07.725 [DEBUG] - << x-ratelimit-remaining: 87
+2023-03-30 18:09:07.725 [DEBUG] - << x-ratelimit-reset: 3
+2023-03-30 18:09:07.725 [DEBUG] - << x-request-id: d61d68fe-b31d-4ec3-88f5-41f785725e2e
+2023-03-30 18:09:07.725 [DEBUG] - << x-runtime: 0.108148
+2023-03-30 18:09:07.725 [DEBUG] - << x-xss-protection: 0
+2023-03-30 18:09:07.725 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 18:09:07.725 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SLUqSHMxn4AcJ4n8QcVycnT6fyBmFL5lJ7KQmawumPz81vwfUzJpRokCw3DjM%2FEA1WzhijQozoqXInWgyY3lqS%2Fqb22BNgZt%2FFgk4hWgDlXsCxuPmtrTuKv5WIKA7RE%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 18:09:07.725 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 18:09:07.725 [DEBUG] - << Server: cloudflare
+2023-03-30 18:09:07.725 [DEBUG] - << CF-RAY: 7b019d7c2ec63528-WAW
+2023-03-30 18:09:07.725 [DEBUG] - << Content-Encoding: gzip
+2023-03-30 18:09:07.725 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 18:09:07.726 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:07.726 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 18:09:07.726 [DEBUG] -  << "8a[\r][\n]"
+2023-03-30 18:09:07.726 [DEBUG] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]T[0xca]1[\n]"
+2023-03-30 18:09:07.726 [DEBUG] -  << "[0xc3]0[0xc]F[0xe1][0xbb][0xfc][0xb3])u[0x88]M[0xec][0xa9]K[0xd7]n=[0x80][0x88]D1Xn[0xa9][0x95].!w[0xf][0x99]B[0xb7][0xf7][0xe0][[0xa1]b[0x84][0xdc][0x96]Z[0x1d][0x98][0x8e]^Q[0x18]9[0xa4][0xe4]Cth[0xa4][0x82][0x8c][0xe7][0x87][0xc9][0x84][0x1f][0xa4][0xe2][0xe3]t[0xf5]i[0x8]c[0x1c][0x87][0x9][0xe][0xa2]T[0xea]I[0xee][0xc7][0xfe][0x99][0x9b]I[0xb7][0xcb][0xfc]V8[0xbc][0xa4][0xb1]|[0x91][0xa1]T[0x5][0xe][0xdd][0xc8][0x96][0x8e][0xc][0x9a][0xad][0xfc][0x4][0xdb][0xb6][0x3][0x0][0x0][0xff][0xff][0x3][0x0][0x8b][0xfc][0xc1][0xaf][0x93][0x0][0x0][0x0]"
+2023-03-30 18:09:07.726 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:07.726 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 18:09:07.726 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:07.727 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 18:09:07.727 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4e7bc939
+2023-03-30 18:09:07.727 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:07.769 [INFO] - Delete user
+2023-03-30 18:09:07.781 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 18:09:07.781 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 18:09:07.814 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 18:09:07.814 [DEBUG] - Auth cache not set in the context
+2023-03-30 18:09:07.814 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 18:09:07.814 [DEBUG] - Attempt 1 to execute request
+2023-03-30 18:09:07.814 [DEBUG] - Sending request: DELETE /public/v1/users/599156 HTTP/1.1
+2023-03-30 18:09:07.814 [DEBUG] -  >> "DELETE /public/v1/users/599156 HTTP/1.1[\r][\n]"
+2023-03-30 18:09:07.814 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 18:09:07.814 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 18:09:07.814 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 18:09:07.815 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 18:09:07.815 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 18:09:07.815 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 18:09:07.815 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 18:09:07.815 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 18:09:07.815 [DEBUG] - >> DELETE /public/v1/users/599156 HTTP/1.1
+2023-03-30 18:09:07.815 [DEBUG] - >> Content-Type: application/json
+2023-03-30 18:09:07.815 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 18:09:07.815 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 18:09:07.815 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 18:09:07.815 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 18:09:07.815 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 18:09:07.815 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 18:09:08.442 [DEBUG] -  << "HTTP/1.1 204 No Content[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "Date: Thu, 30 Mar 2023 16:09:08 GMT[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "Cache-Control: no-cache[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-ratelimit-remaining: 86[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-ratelimit-reset: 3[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-request-id: a62baf2a-595e-4a87-96cc-7d2d6d089a0f[\r][\n]"
+2023-03-30 18:09:08.443 [DEBUG] -  << "x-runtime: 0.103975[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3h9s9GNBELVwixNVzFixlh8ixMk2l2eMVuZpzOcMy%2FP7EZwCyxFQVZcregN6%2BDYYRv8gaRqqFIFu%2BSAIuXdXjGhi6y5X9l1tITbEzPqeFlbfzpbVGp9tnumvxhp9ARM%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] -  << "CF-RAY: 7b019d808cbd35a6-WAW[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:08.444 [DEBUG] - Receiving response: HTTP/1.1 204 No Content
+2023-03-30 18:09:08.444 [DEBUG] - << HTTP/1.1 204 No Content
+2023-03-30 18:09:08.444 [DEBUG] - << Date: Thu, 30 Mar 2023 16:09:08 GMT
+2023-03-30 18:09:08.444 [DEBUG] - << Connection: keep-alive
+2023-03-30 18:09:08.444 [DEBUG] - << Cache-Control: no-cache
+2023-03-30 18:09:08.444 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 18:09:08.444 [DEBUG] - << vary: Origin
+2023-03-30 18:09:08.445 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 18:09:08.445 [DEBUG] - << x-download-options: noopen
+2023-03-30 18:09:08.445 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 18:09:08.445 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 18:09:08.445 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 18:09:08.445 [DEBUG] - << x-ratelimit-remaining: 86
+2023-03-30 18:09:08.445 [DEBUG] - << x-ratelimit-reset: 3
+2023-03-30 18:09:08.445 [DEBUG] - << x-request-id: a62baf2a-595e-4a87-96cc-7d2d6d089a0f
+2023-03-30 18:09:08.445 [DEBUG] - << x-runtime: 0.103975
+2023-03-30 18:09:08.445 [DEBUG] - << x-xss-protection: 0
+2023-03-30 18:09:08.445 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 18:09:08.445 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3h9s9GNBELVwixNVzFixlh8ixMk2l2eMVuZpzOcMy%2FP7EZwCyxFQVZcregN6%2BDYYRv8gaRqqFIFu%2BSAIuXdXjGhi6y5X9l1tITbEzPqeFlbfzpbVGp9tnumvxhp9ARM%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 18:09:08.445 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 18:09:08.445 [DEBUG] - << Server: cloudflare
+2023-03-30 18:09:08.445 [DEBUG] - << CF-RAY: 7b019d808cbd35a6-WAW
+2023-03-30 18:09:08.445 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 18:09:08.445 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:08.446 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4fe2dd02
+2023-03-30 18:09:08.446 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:13.488 [INFO] - Get users list
+2023-03-30 18:09:13.501 [DEBUG] - Get connection for route {s}->https://gorest.co.in:443
+2023-03-30 18:09:13.501 [DEBUG] - Connecting to gorest.co.in:443
+2023-03-30 18:09:13.536 [DEBUG] - CookieSpec selected: ignoreCookies
+2023-03-30 18:09:13.536 [DEBUG] - Auth cache not set in the context
+2023-03-30 18:09:13.536 [DEBUG] - Proxy auth state: UNCHALLENGED
+2023-03-30 18:09:13.536 [DEBUG] - Attempt 1 to execute request
+2023-03-30 18:09:13.536 [DEBUG] - Sending request: GET /public/v1/users HTTP/1.1
+2023-03-30 18:09:13.537 [DEBUG] -  >> "GET /public/v1/users HTTP/1.1[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] -  >> "Content-Type: application/json[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] -  >> "Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] -  >> "Host: gorest.co.in[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] -  >> "Connection: Keep-Alive[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] -  >> "[\r][\n]"
+2023-03-30 18:09:13.537 [DEBUG] - >> GET /public/v1/users HTTP/1.1
+2023-03-30 18:09:13.537 [DEBUG] - >> Content-Type: application/json
+2023-03-30 18:09:13.537 [DEBUG] - >> Authorization: Bearer 93378ac543867bc38096e2bd4a08e9f1afc0c310552238f37e0cc74b46a6df1e
+2023-03-30 18:09:13.537 [DEBUG] - >> Accept: application/json, application/javascript, text/javascript, text/json
+2023-03-30 18:09:13.537 [DEBUG] - >> Host: gorest.co.in
+2023-03-30 18:09:13.537 [DEBUG] - >> Connection: Keep-Alive
+2023-03-30 18:09:13.537 [DEBUG] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2023-03-30 18:09:13.537 [DEBUG] - >> Accept-Encoding: gzip,deflate
+2023-03-30 18:09:14.145 [DEBUG] -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "Date: Thu, 30 Mar 2023 16:09:14 GMT[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "Connection: keep-alive[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "etag: W/"8d72764e71bfc2bcce5a25a558280be7"[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "referrer-policy: strict-origin-when-cross-origin[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "vary: Origin[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "x-content-type-options: nosniff[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "x-download-options: noopen[\r][\n]"
+2023-03-30 18:09:14.145 [DEBUG] -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "x-permitted-cross-domain-policies: none[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "x-ratelimit-limit: 90[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "x-ratelimit-remaining: 86[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "x-ratelimit-reset: 1[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "x-request-id: 1067330b-cd49-4dc2-8678-a0e69bb6dd70[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "x-runtime: 0.078736[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "x-xss-protection: 0[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V449Xs1dTgzIfm4Pm13RxP027EfbSRqyFqTCOP7A5eYetyUCW%2B2Yn%2Fd7QI%2FmxMTi6MSRcwJJWp%2FKgVqynk6CGMqfTaBQO0aA4mIODO1NuXixWsRgnKu4hixSb6o%2B1xo%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "Server: cloudflare[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "CF-RAY: 7b019da44e2fbfb9-WAW[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "Content-Encoding: gzip[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:14.146 [DEBUG] - Receiving response: HTTP/1.1 200 OK
+2023-03-30 18:09:14.147 [DEBUG] - << HTTP/1.1 200 OK
+2023-03-30 18:09:14.147 [DEBUG] - << Date: Thu, 30 Mar 2023 16:09:14 GMT
+2023-03-30 18:09:14.147 [DEBUG] - << Content-Type: application/json; charset=utf-8
+2023-03-30 18:09:14.147 [DEBUG] - << Transfer-Encoding: chunked
+2023-03-30 18:09:14.147 [DEBUG] - << Connection: keep-alive
+2023-03-30 18:09:14.147 [DEBUG] - << Cache-Control: max-age=0, private, must-revalidate
+2023-03-30 18:09:14.147 [DEBUG] - << etag: W/"8d72764e71bfc2bcce5a25a558280be7"
+2023-03-30 18:09:14.147 [DEBUG] - << referrer-policy: strict-origin-when-cross-origin
+2023-03-30 18:09:14.147 [DEBUG] - << vary: Origin
+2023-03-30 18:09:14.147 [DEBUG] - << x-content-type-options: nosniff
+2023-03-30 18:09:14.147 [DEBUG] - << x-download-options: noopen
+2023-03-30 18:09:14.147 [DEBUG] - << x-frame-options: SAMEORIGIN
+2023-03-30 18:09:14.147 [DEBUG] - << x-permitted-cross-domain-policies: none
+2023-03-30 18:09:14.147 [DEBUG] - << x-ratelimit-limit: 90
+2023-03-30 18:09:14.147 [DEBUG] - << x-ratelimit-remaining: 86
+2023-03-30 18:09:14.147 [DEBUG] - << x-ratelimit-reset: 1
+2023-03-30 18:09:14.147 [DEBUG] - << x-request-id: 1067330b-cd49-4dc2-8678-a0e69bb6dd70
+2023-03-30 18:09:14.147 [DEBUG] - << x-runtime: 0.078736
+2023-03-30 18:09:14.147 [DEBUG] - << x-xss-protection: 0
+2023-03-30 18:09:14.148 [DEBUG] - << CF-Cache-Status: DYNAMIC
+2023-03-30 18:09:14.148 [DEBUG] - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V449Xs1dTgzIfm4Pm13RxP027EfbSRqyFqTCOP7A5eYetyUCW%2B2Yn%2Fd7QI%2FmxMTi6MSRcwJJWp%2FKgVqynk6CGMqfTaBQO0aA4mIODO1NuXixWsRgnKu4hixSb6o%2B1xo%3D"}],"group":"cf-nel","max_age":604800}
+2023-03-30 18:09:14.148 [DEBUG] - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-03-30 18:09:14.148 [DEBUG] - << Server: cloudflare
+2023-03-30 18:09:14.148 [DEBUG] - << CF-RAY: 7b019da44e2fbfb9-WAW
+2023-03-30 18:09:14.148 [DEBUG] - << Content-Encoding: gzip
+2023-03-30 18:09:14.148 [DEBUG] - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-03-30 18:09:14.148 [DEBUG] - Connection can be kept alive indefinitely
+2023-03-30 18:09:14.148 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2023-03-30 18:09:14.149 [DEBUG] -  << "23c[\r][\n]"
+2023-03-30 18:09:14.149 [DEBUG] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x94][0x94]ao[0xd3]0[0x10][0x86][0xff]Jt[0x9f][0xd3][0x94][0xb6][0xdb]@[0x91][0x10])L[0x82]I[0x13][0x9a]4[0xe0][0xb]B[0xd1]5[0xb9][0xc4][0xb7]:[0xe7][0xc8]v[0x1a][0xca][0xd4][0xff][0x8e][0x9c][0xb1]6[0x1b][0xd3][0xb6]~[0xf3][0xdd]{[0xf1][0xe3][0xf7][0xce][0xce]-4[0xe4][0x11][0xd2][h[0xb1]fA[0xcf]FB[0xe4][0x8d]G[\r][0xe9][0xec][0xed][0xe9],[0xe][0x12][0xb9][0x10][0x9c][0xdd][0xad]![0x9d][0xc5][0xa0][0xb9]a[0xf][0xe9][0xec]MX[0xca][0xda][\r]{X[0xda][0xb0][0xe9][0x1c][0xa4][0xd2]i[0x1d]C[0xd1]YK[0xe2]![0x5][0xe5]}[0xeb][0xd2][0xe9][0xb4]6[0x96][0x9c]O[\n]"
+2023-03-30 18:09:14.149 [DEBUG] -  << "[0x93][0xb0]L[0xdb]n[0xa5][0xb9][0x98]nf[0xd3][0xce][0x91]u[0x1f][0xc2][0xde][0xef]g[0x10][0x83][0xd0][0xef][0xe3]>[0x9a][0xc3]n[0xb7][0x8b][0xa1][0xc4][0xe0][0xe5][0xe7]-p[0x9][0xe9]b~[0xf2].[0x6][0xc1][0x86] [0x85][0xef][0xb6]a[0x8d][0xd1]R[0xe9][0xae]G[0xcd][0x8]1P[0x83][0xac]![0x5][0xbc][0xcf][0xe5][0xdd]P[0x94][0xad][0x8][0xbd][0xdf]NJ#BZo[0x13]6[0x10]CMR[0x92][0x85][0x14][0x1a][0xd4][0x4]18[0x8f]>[0x18][0x5],<o[0x8]v[0xf1][0x9e]z[0xb6][0xa7]^w7[0xe8]1[0xba]F[0x16][0x1e][0x11]][0x88]s7[0x88][0x99][0xf0][0xda]h[0xec]\R<[0x8b]a"
+2023-03-30 18:09:14.149 [DEBUG] -  << "[0xf9][0x1f]4[0xdb][0x83]>[0xb3][0xe5]5F[0xcb][0x92]k[0x8c]./[0xcf]G0[0xad][0xcb][0xbc][0x1e][0xe4][0x1c][0x83][0x9c][0xf5]L5J[0xf9][0xc8]VE/[0x1a][[0x1c][0xda][0xf9][0x5]-{[0x8c].[0xb6]$5[0xda][0x11]M[\r]B[0xce]wBfMO[0x13]E([0xb4]M[\n]"
+2023-03-30 18:09:14.149 [DEBUG] -  << "[0xd3][0x1c][0xd5][0xc7][0xc5][0xe9][0x1e][0xb7]D[0xbb][0xc5][0xe8]\a[0x8f]2[0x9e]\H[0xe7][0xe5][0x90][0xce]n[0x8c][0x12]g$1[0xb6]>[0xb2][0x8f][0xf3][0x83][0xaf][0xa5][0xdc][0x84][0xb3]bt[0xc5]Z?[0xb8]$[0xff][0x84][0xbc][\r]BVR[0xb1]6[0xfd][0xc4][0x15][0xaa][0xd3][0xec]|"[0xe4][0x9f]o[0xe6]S[0xd8][0xb7]{[0xec]'[0x85]RZlP8[0xfa][0x86][0xba]G[0x1b]][0xfc][0x18][0xd1]y[0x93][0xfb]![0x9d][0x17][0x87][0xca]l[0x85][0xd6][0x9a][0xde][0xbd]8[0xc8][0xa7][0xd8]'#[0xcb][0x9d][0xc5]::'[0xa7]Z[0x94][0x92][0x1e][0x98][0xe]R^[0xde]KY[QU[0x91][0x9d]h[0x94][0xba]7[0xd6][0xab]d[0xd8][0xe4][0xb8]k4_[0xec][0xd9]W[0xd6]TIt[0xdd]5([0xd1]WR[0xb6][0x1b][0xc1][k[0xaa]\B2w[0xa1] [0xeb]I[0x9][0xd9][0x89]Y[0x13]U[0xf4]x[0xcc][0xaf]s=?[0xbc]L[0xb4][0x1a][0xa3][0x8f][\n]"
+2023-03-30 18:09:14.149 [DEBUG] -  << "[0xbd][0xc7]B[0x85]{[0xf4][0xe0]}Z[0x8d][0xf9]j$f[0xe1][0x9f][0xb3]NV[0xfc][0xe7]uf[0xed][0xfe][0x2][0x0][0x0][0xff][0xff][0x3][0x0]^vS[0x10]Y[0x5][0x0][0x0]"
+2023-03-30 18:09:14.149 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:14.150 [DEBUG] -  << "0[\r][\n]"
+2023-03-30 18:09:14.150 [DEBUG] -  << "[\r][\n]"
+2023-03-30 18:09:14.150 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-03-30 18:09:14.150 [DEBUG] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4948daec
+2023-03-30 18:09:14.151 [DEBUG] - Connection can be kept alive indefinitely

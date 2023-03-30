@@ -34,7 +34,7 @@ public class CrudUserTest {
 
     @Test(description = "Can Create, Read, Update, Delete user")
     @Description("Can CRUD user")
-    public void crudUser() {
+    public void createUser() {
 
         UserResponse response = userAPI.createUser(UserRequest.builder()
                 .name(userName)
