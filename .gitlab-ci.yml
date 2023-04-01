@@ -1,0 +1,11 @@
+stages :
+  -build
+
+build:
+  stage: build
+  image: openjdk:11.0.18
+  script:
+    - ./gradlew build
+  artifacts:
+    paths:
+      - ./build/libs/
